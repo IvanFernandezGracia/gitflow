@@ -173,6 +173,8 @@ cmd_start() {
 	fi
 	require_branch_absent "$BRANCH"
 
+	
+	# create ivan 
 	# create branch
 	git_do checkout -b "$BRANCH" "$BASE"
 
